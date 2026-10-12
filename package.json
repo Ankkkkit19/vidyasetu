@@ -6,7 +6,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "db:push": "drizzle-kit push",
+    "db:seed": "curl -X POST http://localhost:3000/api/seed"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
